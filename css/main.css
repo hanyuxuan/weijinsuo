@@ -103,12 +103,14 @@ body {
 #header>.navbar {
 	margin-bottom: 0;
 }
+
 #header>.affix {
 	z-index: 1;
-    width: 100%;
-    top: 0;
-    border-radius: 0
+	width: 100%;
+	top: 0;
+	border-radius: 0
 }
+
 #header>.navbar .navbar-toggle {
 	margin-top: 23px;
 }
@@ -266,9 +268,10 @@ body {
 	background-color: #f0f0f0;
 }
 
-#project>.container > .ul-warp {
+#project>.container>.ul-warp {
 	/*overflow-x: scroll;*/
 }
+
 #project>.container .nav-tabs {
 	padding-left: 20px;
 	margin-bottom: 20px;
@@ -350,6 +353,14 @@ body {
 
 #project .block>.invest-info>div {
 	margin-bottom: 10px;
+}
+
+#project .block>.invest-info>div:nth-of-type(2n+1) {
+	padding-right: 0;
+}
+
+#project .block>.invest-info>div:nth-of-type(2n) {
+	padding-left: 0;
 }
 
 #project .block>.invest-info>h4 {
@@ -511,89 +522,115 @@ body {
 	color: #EAEAEA;
 }
 
+
 /**
  * 合作伙伴
  */
+
 #companion {
 	margin-bottom: 40px;
 }
-#companion >.container > ul {
+
+#companion>.container>ul {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
-#companion >.container li {
+
+#companion>.container li {
 	width: 10%;
 	float: left;
 	list-style: none;
 	margin-right: 5px;
 	text-align: center;
 }
-#companion >.container li > a {
+
+#companion>.container li>a {
 	color: #C0C0C0;
 	font-weight: normal;
 }
-#companion >.container li > a:hover{
+
+#companion>.container li>a:hover {
 	text-decoration: none;
 }
-#companion >.container li:nth-of-type(1) > a:hover{
+
+#companion>.container li:nth-of-type(1)>a:hover {
 	color: red;
 }
-#companion >.container li:nth-of-type(2) > a:hover{
+
+#companion>.container li:nth-of-type(2)>a:hover {
 	color: orange;
 }
-#companion >.container li:nth-of-type(3) > a:hover{
+
+#companion>.container li:nth-of-type(3)>a:hover {
 	color: deepskyblue;
 }
-#companion >.container li:nth-of-type(4) > a:hover{
+
+#companion>.container li:nth-of-type(4)>a:hover {
 	color: green;
 }
-#companion >.container li:nth-of-type(5) > a:hover{
+
+#companion>.container li:nth-of-type(5)>a:hover {
 	color: blue;
 }
-#companion >.container li:nth-of-type(6) > a:hover{
+
+#companion>.container li:nth-of-type(6)>a:hover {
 	color: darkcyan;
 }
-#companion >.container li:nth-of-type(7) > a:hover{
+
+#companion>.container li:nth-of-type(7)>a:hover {
 	color: purple;
 }
-#companion >.container li:nth-of-type(8) > a:hover{
+
+#companion>.container li:nth-of-type(8)>a:hover {
 	color: greenyellow;
 }
-#companion >.container li:nth-of-type(9) > a:hover{
+
+#companion>.container li:nth-of-type(9)>a:hover {
 	color: gold;
 }
-#companion >.container li > a > i{
+
+#companion>.container li>a>i {
 	font-size: 50px;
 }
 
 .icon-uniE930::before {
-    content: "\e946";
+	content: "\e946";
 }
+
 .icon-uniE92F::before {
-    content: "\e92f";
+	content: "\e92f";
 }
+
 .icon-uniE92E::before {
-    content: "\e92e";
+	content: "\e92e";
 }
+
 .icon-uniE92A::before {
-    content: "\e92a";
+	content: "\e92a";
 }
+
 .icon-uniE929::before {
-    content: "\e929";
+	content: "\e929";
 }
+
 .icon-uniE931::before {
-    content: "\e931";
+	content: "\e931";
 }
+
 .icon-uniE92C::before {
-    content: "\e92c";
+	content: "\e92c";
 }
+
 .icon-uniE92B::before {
-    content: "\e92b";
+	content: "\e92b";
 }
+
 .icon-uniE92D::before {
-    content: "\e92d";
+	content: "\e92d";
 }
+
+
 /**
  * bootstrap拓展
  */
